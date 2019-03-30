@@ -44,14 +44,18 @@ console.log (Math.PI*(bsm-bsd));
 // четвертое задание
 console.log('четвертое задание');
 
-let X = 20;
-let Y = 10;
+let x = 20;
+let y = 10;
 
-if (X>=Y) {
-	console.log("новое значене: ", X, Y);
-} else {
-	console.log("значения не менялись: ", X, Y);
+if (x>y) {
+  x = y + x;
+  y = x - y;
+  x = x - y;
+  console.log (x , y);
+}else {
+  console.log (x , y);
 }
+
 // пятое задание
 console.log('пятое задание');
 let m = 9;
