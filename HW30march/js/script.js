@@ -36,3 +36,14 @@ for (var x = 1; x <101; x++ ){
 }
 
 console.log('третье задание');
+
+var a = 10;
+var b = 40;
+var c = 20;
+var d = a;
+if (b > a && c < b) {d=b;} else if (c > b) {d=c;}
+console.log (d);
+
+if (d < a+b+c-d) {console.log("Треугольницу быть!");} else {console.log("Треугольнику не быть!");}
+
+// кажется тут надо изучать cos и sin...
