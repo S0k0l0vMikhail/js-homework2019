@@ -55,7 +55,7 @@ console.log("3 task");
   range(1,10,2);
 
 
-console.log("3 task");
+console.log("4 task");
 
   function functionName(count) {
     if(typeof(count)=="number")
