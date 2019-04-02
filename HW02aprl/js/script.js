@@ -32,12 +32,10 @@ console.log("1 task");
 
 console.log("2 task");
 
-  /*function recursion(num) {
-      var nut = num.slice();
-      console.log(nut);
-      return;
+  function recursion(num) {
+
   }
-  recursion(234);*/
+  //recursion(234);
 
 console.log("3 task");
 
@@ -55,10 +53,25 @@ console.log("3 task");
   }
 
   range(1,10,2);
-}())
+
 
 console.log("3 task");
 
-  //function functionName(count) {
+  function functionName(count) {
+    if(typeof(count)=="number")
+    var num = String(count);
+    var arr = num.split('');
+    var n = arr[arr.length - 1];
+    if (n == 1) {
+      console.log(count + " товар");
+    } else if (n >= 2 && n <= 4) {
+      console.log(count + " товара");
+    } else {
+      console.log(count + " товаров");
+    }
+    //console.log(n);
+    return;
+  }
 
-  //}
+  functionName(8918);
+}())
