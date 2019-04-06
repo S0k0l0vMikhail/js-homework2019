@@ -35,7 +35,9 @@ let goods = {
       for (let key in obj) {
 
          if (obj[key].price >= from && obj[key].price <= to) {
-
+            for (let key1 in obj.key) {
+              console.log(obj["key"]["key1"],1);
+            }
            console.log(obj[key]);
          }
          return;
