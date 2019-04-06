@@ -73,5 +73,5 @@ console.log("4 task");
     return;
   }
 
-  functionName(8918);
+  functionName(14);
 }())
