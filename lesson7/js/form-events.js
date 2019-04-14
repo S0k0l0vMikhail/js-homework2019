@@ -149,9 +149,6 @@ function changeColor() {
     form.elements.checkbox_fieldset.style.background = colorRadio[1].value;
   }
 };
-// ЗАДАНИЕ НА ВЫВОД В КОНСОЛЬ ОТМЕЧЕННЫХ ЧЕКБОКСОВ
-
-
 
 // ЗАДАНИЕ НА РАЗБЛАКИРОВКУ ТЕКСТОВОГО ПОЛЯ
 let checkbox = document.getElementById("checkbox");
